@@ -24,6 +24,7 @@
 		AC01542E2C3716F800B52CA6 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01542D2C3716F800B52CA6 /* TimerView.swift */; };
 		AC0154302C3716FF00B52CA6 /* TimerSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01542F2C3716FF00B52CA6 /* TimerSettingsView.swift */; };
 		AC0154322C37170D00B52CA6 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0154312C37170D00B52CA6 /* StatsView.swift */; };
+		AC0154342C37423A00B52CA6 /* ProfilePicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0154332C37423A00B52CA6 /* ProfilePicViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		AC01542D2C3716F800B52CA6 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		AC01542F2C3716FF00B52CA6 /* TimerSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSettingsView.swift; sourceTree = "<group>"; };
 		AC0154312C37170D00B52CA6 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		AC0154332C37423A00B52CA6 /* ProfilePicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				AC01541F2C37169700B52CA6 /* HigherDPHSheetView.swift */,
 				AC0154212C3716B000B52CA6 /* DPHGuideSheetView.swift */,
 				AC01542D2C3716F800B52CA6 /* TimerView.swift */,
+				AC0154332C37423A00B52CA6 /* ProfilePicViewModel.swift */,
 				AC01542F2C3716FF00B52CA6 /* TimerSettingsView.swift */,
 				AC0154312C37170D00B52CA6 /* StatsView.swift */,
 				AC01540A2C3714CB00B52CA6 /* Assets.xcassets */,
@@ -197,6 +200,7 @@
 				AC0154072C3714C900B52CA6 /* DPH_HelperApp.swift in Sources */,
 				AC0154322C37170D00B52CA6 /* StatsView.swift in Sources */,
 				AC0154222C3716B000B52CA6 /* DPHGuideSheetView.swift in Sources */,
+				AC0154342C37423A00B52CA6 /* ProfilePicViewModel.swift in Sources */,
 				AC0154162C37158A00B52CA6 /* SplashScreenView.swift in Sources */,
 				AC0154302C3716FF00B52CA6 /* TimerSettingsView.swift in Sources */,
 			);

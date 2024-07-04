@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import PhotosUI
 
 struct HomeView: View {
     
@@ -15,6 +16,7 @@ struct HomeView: View {
     @State var pageIndex: Int = 0
     //@State var badName: Int
    // @State var zeroAlertShowing: Bool
+    @StateObject var viewModel = ProfilePicViewModel()
     
     var body: some View {
         
@@ -63,12 +65,23 @@ struct HomeView: View {
                 
                 Spacer()
                 VStack {
-                    Image("logo2")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 100)
-                        .padding(.top, 100.0)
-                    
+                    PhotosPicker(selection: $viewModel.selectedItem) {
+                        if let profileImage = viewModel.profileImage {
+                            profileImage
+                                .resizable()
+                                .frame(width: 100, height: 100)
+                                .scaledToFill()
+                                .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                                .padding(.top, 90.0)
+                        } else {
+                            Image(systemName: "person.circle.fill")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 100)
+                                .foregroundStyle(Color(.gray))
+                                .padding(.top, 90.0)
+                        }
+                    }
                     
                     
                     Text("Hello, \n\(userName)")
@@ -86,6 +99,7 @@ struct HomeView: View {
                     HStack {
                         Image(systemName: "bubble.left.and.exclamationmark.bubble.right.fill")
                             .foregroundStyle(.red)
+                        //ADD POSITIVE AFFIRMATIONS ARRAY HERE
                         Text("You have a meeting at 3:00 PM")
                             .font(.title3)
                             .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
