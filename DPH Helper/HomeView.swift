@@ -12,11 +12,13 @@ struct HomeView: View {
     
     @AppStorage("username") var userName: String = ""
     @AppStorage("enrolled") var enrolled: Bool = false
+    //@AppStorage("profileImage") var profileImage: Image = "logo.png"
     @State var showNameSettings = false
     @State var pageIndex: Int = 0
     //@State var badName: Int
    // @State var zeroAlertShowing: Bool
     @StateObject var viewModel = ProfilePicViewModel()
+    @StateObject var affirmationModel = AffirmationsViewModel()
     
     var body: some View {
         
@@ -64,13 +66,13 @@ struct HomeView: View {
                 }
                 
                 Spacer()
-                VStack {
+                VStack (spacing: 0) {
                     PhotosPicker(selection: $viewModel.selectedItem) {
                         if let profileImage = viewModel.profileImage {
                             profileImage
                                 .resizable()
-                                .frame(width: 100, height: 100)
                                 .scaledToFill()
+                                .frame(width: 100, height: 100)
                                 .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                                 .padding(.top, 90.0)
                         } else {
@@ -100,7 +102,7 @@ struct HomeView: View {
                         Image(systemName: "bubble.left.and.exclamationmark.bubble.right.fill")
                             .foregroundStyle(.red)
                         //ADD POSITIVE AFFIRMATIONS ARRAY HERE
-                        Text("You have a meeting at 3:00 PM")
+                        Text(affirmationModel.newAffirmation())
                             .font(.title3)
                             .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                     }

@@ -25,6 +25,7 @@
 		AC0154302C3716FF00B52CA6 /* TimerSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01542F2C3716FF00B52CA6 /* TimerSettingsView.swift */; };
 		AC0154322C37170D00B52CA6 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0154312C37170D00B52CA6 /* StatsView.swift */; };
 		AC0154342C37423A00B52CA6 /* ProfilePicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0154332C37423A00B52CA6 /* ProfilePicViewModel.swift */; };
+		AC0154362C374A4700B52CA6 /* AffirmationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0154352C374A4700B52CA6 /* AffirmationsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		AC01542F2C3716FF00B52CA6 /* TimerSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSettingsView.swift; sourceTree = "<group>"; };
 		AC0154312C37170D00B52CA6 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		AC0154332C37423A00B52CA6 /* ProfilePicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicViewModel.swift; sourceTree = "<group>"; };
+		AC0154352C374A4700B52CA6 /* AffirmationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				AC0154212C3716B000B52CA6 /* DPHGuideSheetView.swift */,
 				AC01542D2C3716F800B52CA6 /* TimerView.swift */,
 				AC0154332C37423A00B52CA6 /* ProfilePicViewModel.swift */,
+				AC0154352C374A4700B52CA6 /* AffirmationsViewModel.swift */,
 				AC01542F2C3716FF00B52CA6 /* TimerSettingsView.swift */,
 				AC0154312C37170D00B52CA6 /* StatsView.swift */,
 				AC01540A2C3714CB00B52CA6 /* Assets.xcassets */,
@@ -190,6 +193,7 @@
 				AC01542E2C3716F800B52CA6 /* TimerView.swift in Sources */,
 				AC0154262C3716D000B52CA6 /* NameSettingsView.swift in Sources */,
 				AC0154282C3716D500B52CA6 /* MainView.swift in Sources */,
+				AC0154362C374A4700B52CA6 /* AffirmationsViewModel.swift in Sources */,
 				AC01541A2C3715F500B52CA6 /* PageView.swift in Sources */,
 				AC01541C2C37160D00B52CA6 /* OnBoardingScreensView.swift in Sources */,
 				AC0154202C37169700B52CA6 /* HigherDPHSheetView.swift in Sources */,
