@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AC0154072C3714C900B52CA6 /* DPH_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0154062C3714C900B52CA6 /* DPH_HelperApp.swift */; };
-		AC0154092C3714C900B52CA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0154082C3714C900B52CA6 /* ContentView.swift */; };
 		AC01540B2C3714CB00B52CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC01540A2C3714CB00B52CA6 /* Assets.xcassets */; };
 		AC01540E2C3714CB00B52CA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC01540D2C3714CB00B52CA6 /* Preview Assets.xcassets */; };
 		AC0154162C37158A00B52CA6 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0154152C37158A00B52CA6 /* SplashScreenView.swift */; };
@@ -30,7 +29,6 @@
 /* Begin PBXFileReference section */
 		AC0154032C3714C900B52CA6 /* DPH Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DPH Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0154062C3714C900B52CA6 /* DPH_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPH_HelperApp.swift; sourceTree = "<group>"; };
-		AC0154082C3714C900B52CA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC01540A2C3714CB00B52CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC01540D2C3714CB00B52CA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC0154152C37158A00B52CA6 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
@@ -80,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				AC0154062C3714C900B52CA6 /* DPH_HelperApp.swift */,
-				AC0154082C3714C900B52CA6 /* ContentView.swift */,
+				AC0154142C37156900B52CA6 /* OnBoarding Screens */,
 				AC01541D2C37168500B52CA6 /* StylishCalcView.swift */,
 				AC01541F2C37169700B52CA6 /* HigherDPHSheetView.swift */,
 				AC0154212C3716B000B52CA6 /* DPHGuideSheetView.swift */,
@@ -91,7 +89,6 @@
 				AC01542D2C3716F800B52CA6 /* TimerView.swift */,
 				AC01542F2C3716FF00B52CA6 /* TimerSettingsView.swift */,
 				AC0154312C37170D00B52CA6 /* StatsView.swift */,
-				AC0154142C37156900B52CA6 /* OnBoarding Screens */,
 				AC01540A2C3714CB00B52CA6 /* Assets.xcassets */,
 				AC01540C2C3714CB00B52CA6 /* Preview Content */,
 			);
@@ -195,7 +192,6 @@
 				AC0154202C37169700B52CA6 /* HigherDPHSheetView.swift in Sources */,
 				AC0154242C3716C400B52CA6 /* HomeView.swift in Sources */,
 				AC0154182C3715CC00B52CA6 /* PageModel.swift in Sources */,
-				AC0154092C3714C900B52CA6 /* ContentView.swift in Sources */,
 				AC01542C2C3716F100B52CA6 /* CalculatorView.swift in Sources */,
 				AC01541E2C37168500B52CA6 /* StylishCalcView.swift in Sources */,
 				AC0154072C3714C900B52CA6 /* DPH_HelperApp.swift in Sources */,
