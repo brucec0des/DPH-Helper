@@ -65,23 +65,14 @@ struct HomeView: View {
                 
                 Spacer()
                 VStack (spacing: 0) {
-                    PhotosPicker(selection: $viewModel.selectedItem) {
-                        if let profileImage = viewModel.profileImage {
-                            profileImage
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width: 100, height: 100)
-                                .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
-                                .padding(.top, 90.0)
-                        } else {
-                            Image(systemName: "person.circle.fill")
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 100)
-                                .foregroundStyle(Color(.gray))
-                                .padding(.top, 90.0)
-                        }
-                    }
+                    
+                    Image("profilepic")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        //.clipShape(.circle)
+                        .frame(width: 100)
+                        .padding(.top, 110.0)
+
                     
                     
                     Text("Hello, \n\(userName)")
@@ -102,7 +93,8 @@ struct HomeView: View {
                         //ADD POSITIVE AFFIRMATIONS ARRAY HERE
                         Text(affirmationModel.newAffirmation())
                             .font(.title3)
-                            .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+                            .multilineTextAlignment(.center)
+                            .lineLimit(1)
                     }
                 }
                 Spacer()
