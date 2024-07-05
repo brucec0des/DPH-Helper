@@ -12,13 +12,11 @@ struct HomeView: View {
     
     @AppStorage("username") var userName: String = ""
     @AppStorage("enrolled") var enrolled: Bool = false
-    //@AppStorage("profileImage") var profileImage: Image = "logo.png"
     @State var showNameSettings = false
     @State var pageIndex: Int = 0
-    //@State var badName: Int
-   // @State var zeroAlertShowing: Bool
     @StateObject var viewModel = ProfilePicViewModel()
     @StateObject var affirmationModel = AffirmationsViewModel()
+
     
     var body: some View {
         
