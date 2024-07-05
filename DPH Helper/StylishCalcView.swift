@@ -18,7 +18,7 @@ struct StylishCalcView: View {
     @State private var showAlert = false
     @State private var showSheet = false
     @State var answer: Int = 0
-    @State var answer2: Double = 5
+    @State var answer2: Double = 0
     @State var answer3: String = "Error"
     @State private var sum1: Double = 0
     @State private var sum2: Double = 0
@@ -243,7 +243,7 @@ struct StylishCalcView: View {
         showAlert = false
         showSheet = false
         answer = 0
-        answer2 = 5
+        answer2 = 0
         answer3 = "Error"
         sum1 = 0
         sum2  = 0
