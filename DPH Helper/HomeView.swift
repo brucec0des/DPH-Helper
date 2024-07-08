@@ -75,7 +75,7 @@ struct HomeView: View {
 
                     
                     
-                    Text("Hello, \n\(userName)")
+                    Text("Hello, \n\(userName.capitalized)")
                         .font(.system(size:80))
                         .fontWeight(.heavy)
                         .multilineTextAlignment(.center)
