@@ -214,6 +214,11 @@ struct MainView: View {
                                 Label("Timer", systemImage: "stopwatch")
                             }
                         
+                        DateView()
+                            .tabItem {
+                                Label("Dates", systemImage: "calendar")
+                            }
+                        
                         //                    StatsView()
                         //                        .tabItem {
                         //                            Label("Stats", systemImage: "chart.bar.xaxis")

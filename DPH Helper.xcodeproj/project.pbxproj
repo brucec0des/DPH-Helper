@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F5DE5742C3C9F9600DB6911 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5DE5732C3C9F9600DB6911 /* DateView.swift */; };
 		AC0154072C3714C900B52CA6 /* DPH_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0154062C3714C900B52CA6 /* DPH_HelperApp.swift */; };
 		AC01540B2C3714CB00B52CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC01540A2C3714CB00B52CA6 /* Assets.xcassets */; };
 		AC01540E2C3714CB00B52CA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC01540D2C3714CB00B52CA6 /* Preview Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F5DE5732C3C9F9600DB6911 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
 		AC0154032C3714C900B52CA6 /* DPH Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DPH Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0154062C3714C900B52CA6 /* DPH_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPH_HelperApp.swift; sourceTree = "<group>"; };
 		AC01540A2C3714CB00B52CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				AC0154332C37423A00B52CA6 /* ProfilePicViewModel.swift */,
 				AC0154352C374A4700B52CA6 /* AffirmationsViewModel.swift */,
 				AC01542F2C3716FF00B52CA6 /* TimerSettingsView.swift */,
+				7F5DE5732C3C9F9600DB6911 /* DateView.swift */,
 				AC0154312C37170D00B52CA6 /* StatsView.swift */,
 				AC01540A2C3714CB00B52CA6 /* Assets.xcassets */,
 				AC01540C2C3714CB00B52CA6 /* Preview Content */,
@@ -196,6 +199,7 @@
 				AC0154362C374A4700B52CA6 /* AffirmationsViewModel.swift in Sources */,
 				AC01541A2C3715F500B52CA6 /* PageView.swift in Sources */,
 				AC01541C2C37160D00B52CA6 /* OnBoardingScreensView.swift in Sources */,
+				7F5DE5742C3C9F9600DB6911 /* DateView.swift in Sources */,
 				AC0154202C37169700B52CA6 /* HigherDPHSheetView.swift in Sources */,
 				AC0154242C3716C400B52CA6 /* HomeView.swift in Sources */,
 				AC0154182C3715CC00B52CA6 /* PageModel.swift in Sources */,
@@ -338,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"DPH Helper/Preview Content\"";
 				DEVELOPMENT_TEAM = KDWCRTP9S5;
 				ENABLE_PREVIEWS = YES;
@@ -373,7 +377,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"DPH Helper/Preview Content\"";
 				DEVELOPMENT_TEAM = KDWCRTP9S5;
 				ENABLE_PREVIEWS = YES;
