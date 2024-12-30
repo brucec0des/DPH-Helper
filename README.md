@@ -22,17 +22,17 @@ This project was developed to help my work associates increase their speed, accu
 - XCode
 
 ## Screenshots
-### Onboarding Screens
+### Onboarding Screens - what a user sees the first time they load the app.
 ![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2364.PNG)
 
 ![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2368.PNG)
-### Dashboard
+### Dashboard - what a user sees whenever they open the app if onboarding was completed.
 ![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2371.PNG)
-### Key Features
+### Key Features: SFD FlowChart, DPH Calculator, SmartTimer
 ![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2373.PNG)
-### DPH Calculator
+### DPH Calculator - calculates current metrics and provides daily action plan to hit goal.
 ![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2391.PNG)
-### SmartTimer
+### SmartTimer - tracks user's time while providing visual feedback to keep associate on track.
 ![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2394.PNG)
 
 ## Author - Bruce Harper
