@@ -7,18 +7,35 @@ This project was developed to help my work associates increase their speed, accu
 
 ## Objectives
 
-- Provide guided assistance in reviewing accounts.
-- Identify the most common ratings for movies and TV shows.
-- List and analyze content based on release years, countries, and durations.
-- Explore and categorize content based on specific criteria and keywords.
+- Provide guided assistance in reviewing accounts
+- Calculate current metrics and provide actionable daily gameplan to help associate hit goals.
+- Provide custom timer feature to help associates stay on track.
+- Provide frequently calculated dates so time is spent on what matters most.
 
-## Dataset
+**For security reasons, FlowChart feature containing proprietary fraud processes has been removed from the version uploaded to GitHub.
 
-The data for this project is sourced from the Kaggle dataset:
+## Technology Used 
 
-- **Dataset Link:** [Movies Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
+- Swift & SwiftUI
+- XCode
 
-## Schema
+## Images
+
+![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2364.PNG)
+
+![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2367.PNG)
+
+![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2368.PNG)
+
+![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2371.PNG)
+
+![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2373.PNG)
+
+![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2386.PNG)
+
+![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2391.PNG)
+
+![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2394.PNG)
 
 ```sql
 DROP TABLE IF EXISTS netflix;
