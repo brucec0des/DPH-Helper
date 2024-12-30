@@ -28,18 +28,21 @@ This project was developed to help my work associates increase their speed, accu
 
 ![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2368.PNG)
 
+
 ### Dashboard - what a user sees whenever they open the app if onboarding was completed.
 ![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2371.PNG)
+
 
 ### Key Features: SFD FlowChart, DPH Calculator, SmartTimer
 ![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2373.PNG)
 
+
 ### DPH Calculator - calculates current metrics and provides daily action plan to hit goal.
 ![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2391.PNG)
+
 
 ### SmartTimer - tracks user's time while providing visual feedback to keep associate on track.
 ![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2394.PNG)
 
 ## Author - Bruce Harper
-
 This project is part of my portfolio, showcasing the my proficiency with Swift & SwiftUI, innovation and creativity in solving a business problem, and leadership skills for proactively taking the initiative to do so.  As my first ever Swift project, it is close to my heart. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
