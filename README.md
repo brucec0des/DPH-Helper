@@ -21,7 +21,7 @@ This project was developed to help my work associates increase their speed, accu
 - Swift & SwiftUI
 - XCode
 
-## Images
+## Screenshots
 ### Onboarding Screens
 ![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2364.PNG)
 
