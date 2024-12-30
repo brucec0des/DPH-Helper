@@ -5,8 +5,6 @@
 ## Overview
 This project was developed to help my work associates increase their speed, accuracy, and efficiency in order to ameliorate their metrics. The following README provides a detailed account of the project's objectives, business problems, and solutions.
 
-![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2367.PNG)
-
 ## Objectives
 
 - Provide guided assistance in reviewing accounts
@@ -15,6 +13,8 @@ This project was developed to help my work associates increase their speed, accu
 - Provide frequently calculated dates so time is spent on what matters most.
 
 **For security reasons, FlowChart feature containing proprietary fraud processes has been removed from the version uploaded to GitHub.
+
+![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2367.PNG)
 
 ## Technology Used 
 
