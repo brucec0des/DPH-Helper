@@ -14,7 +14,7 @@ This project was developed to help my work associates increase their speed, accu
 
 ![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2367.PNG)
 
-**For security reasons, FlowChart feature containing proprietary fraud processes has been removed from the version uploaded to GitHub.
+*** *For security reasons, FlowChart feature containing proprietary fraud processes has been removed from the version uploaded to GitHub.***
 
 ## Technology Used 
 
