@@ -20,6 +20,7 @@ This project was developed to help my work associates increase their speed, accu
 
 - Swift & SwiftUI
 - XCode
+- Photoshop
 
 ## Screenshots
 ### Onboarding Screens - what a user sees the first time they load the app.
