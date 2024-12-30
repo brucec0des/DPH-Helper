@@ -1,6 +1,6 @@
 # DPH Helper App (iOS)
 
-![](https://github.com/brucec0des/SQL-Netflix-Project/blob/main/logo.png)
+![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2386.PNG)
 
 ## Overview
 This project was developed to help my work associates increase their speed, accuracy, and efficiency in order to ameliorate their metrics. The following README provides a detailed account of the project's objectives, business problems, and solutions.
