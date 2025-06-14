@@ -45,4 +45,4 @@ This project was developed to help my work associates increase their speed, accu
 ![](https://github.com/brucec0des/DPH-Helper/blob/main/ASSETS/IMG_2394.PNG)
 ---
 ## Author - Bruce Harper
-This project is part of my portfolio, showcasing the my proficiency with Swift & SwiftUI, innovation and creativity in solving a business problem, and leadership skills for proactively taking the initiative to do so.  As my first ever Swift project, it is close to my heart. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
+This project is part of my portfolio, showcasing my proficiency with Swift & SwiftUI, innovation and creativity in solving a business problem, and leadership skills for proactively taking the initiative to do so.  As my first ever Swift project, it is close to my heart. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
